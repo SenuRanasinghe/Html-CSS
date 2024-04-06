@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@0,400;0,700;1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@0,400;1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@0,400;0,700;1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,wght@1,100;1,300&family=Open+Sans:ital,wght@0,400;0,700;1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Roboto+Slab:wght@100;200&family=Ubuntu:wght@300;500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.cantainer{
+    background-image: url("assert/quino-al-mBQIfKlvowM-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    /*border: 2px solid red;*/
+}
+.taskbar{
+    display: flex;
+    justify-content: space-evenly;
+    /*border: 2px solid red;*/
+}
+.taskbar p{
+    font-family: 'Itim', cursive;
+    color: black;
+}
+.taskbar ul{
+    display: flex;
+}
+.taskbar ul li{
+    margin-right: 30px;
+    list-style: none;
+}
+.taskbar ul li a{
+    text-decoration: none;
+    color:#eb3b5a;
+}
+.taskbar ul li a:hover{
+    color:#2C3A47;
+}
+.background{
+    width: 1515;
+    height: 675;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 300px;
+    /* border: 2px solid green;*/
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #6D214F;
+    font-size: 50px;
+    text-align: center;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+   0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+   {
+      color:#f2075d;
+      text-shadow: none;
+   }
+   18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+   { color: #fff;
+      text-shadow: 0 0 10px #1d0691;
+      0 0 20px #1d0691,
+      0 0 40px #1d0691,
+      0 0 80px #1d0691,
+      0 0 160px #1d0691;
+
+   }
+}
+
+p{
+    color:brown;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button ul{
+   display: flex;
+}
+.button ul li{
+    display: flex;
+    border: 2px solid black;
+    margin-right: 20px;
+   
+}
+.btn{
+    background-color: #c7ecee;
+    margin-left: 50px;
+    border: none;
+}
+.button ul li a{
+    text-decoration: none;
+    color:#182C61;
+    padding: 10px 10px 10px 10px;
+}
+.button ul li a:hover{
+    color:red;
+      
+}
+.last h2{
+    color: #222f3e;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.last p{
+    font-family: 'Roboto Slab', serif;
+    color: #576574;
+}
+
+.under{
+    display: flex;
+    justify-content: space-evenly;
+}
+.A,.B,.C{
+    border: none;
+    width: 300px;
+    height: 100px;
+    /*border: 2px solid purple;*/
+}
+.A-Typography{
+    border: 2px solid #eb3b5a;
+    width: 60%;
+    height: 20px;
+    background-color: #eb3b5a;
+    margin-top: 10px;
+}
+.B-Design{
+    border: 2px solid yellow;
+    width: 82%;
+    height: 20px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+  
+.C-Development{
+    border: 2px solid rebeccapurple;
+    width: 86%;
+    height: 20px;
+    background-color:rebeccapurple;
+    margin-top: 10px;
+}

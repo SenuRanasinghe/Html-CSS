@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@1,300;1,500&family=Raleway:ital,wght@1,300;1,500&family=Ubuntu:wght@300;500&display=swap');
+
+#container{
+    background-image: url("assert/sea.jpg");
+    background-size: 1515px 675px;
+    width:1515px;
+    height:675px;
+}
+.taskbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#7efff5;
+}
+.taskbar p{
+    color:#eb4d4b;
+    font-family: 'Itim', cursive;
+}
+.taskbar ul{
+    display: flex;
+}
+.taskbar ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+.taskbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.background{
+    width:1115px;
+    height: 275px;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 200px;
+
+}
+
+h1{
+    color: #341f97;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+p{
+    color: #dff9fb;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    display: flex;
+}
+.button ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 360px;
+}
+.button ul li{
+    display: flex;
+    border: 2px solid white;
+    margin-right: 260;
+}
+.btn{
+    background-color: #7158e2;
+    margin-left: 30px;
+    border: none;
+}
+.button ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px 10px 10px 10px;
+
+}
+.button ul li a:hover{
+    color:deeppink;
+}
+
+
+
